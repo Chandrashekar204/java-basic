@@ -9,4 +9,8 @@ public class PrivateEmployeConsturctor {
         this.name = "Unknown";
         this.age = 0;
     }
+
+    static PrivateEmployeConsturctor getInstance() {
+        return new PrivateEmployeConsturctor();
+    }
 }

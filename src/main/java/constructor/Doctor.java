@@ -3,6 +3,8 @@ package constructor;
 public class Doctor extends Employe {
     private String specialization;
 
+
+
     // Default constructor
     public Doctor() {
         super(); // Calls the default constructor of Employe
